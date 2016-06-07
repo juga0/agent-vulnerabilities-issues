@@ -1,0 +1,17 @@
+- name: 'signal'
+  issues_search_url: 'https://api.github.com/search/issues?q=CVE+repo:WhisperSystems/Signal-Android&sort=created&order=asc?per_page=100&page=1&state=all'
+
+- name: 'chatsecure'
+  issues_search_url: 'https://api.github.com/search/issues?q=CVE+repo:guardianproject/ChatSecureAndroid&sort=created&order=asc?per_page=100&page=1&state=all'
+  #https://dev.guardianproject.info/projects/gibberbot/issues?set_filter=1
+  #https://www.redmine.org/projects/redmine/wiki/Rest_Issues
+
+- name: 'telegramdesktop'
+  platform: 'linux desktop'
+  issues_search_url: 'https://api.github.com/search/issues?q=CVE+repo:telegramdesktop/tdesktop&sort=created&order=asc?per_page=100&page=1&state=all'
+  #'https://github.com/telegramdesktop/tdesktop/issues'
+
+- name: 'telegramcli'
+  platform: 'linux cli'
+  issues_search_url: 'https://api.github.com/search/issues?q=CVE+repo:vysheng/tg&sort=created&order=asc?per_page=100&page=1&state=all'
+  #'https://github.com/vysheng/tg/issues'
